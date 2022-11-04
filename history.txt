@@ -1,0 +1,45 @@
+  681  git clone https://github.com/almuraveva/LR6
+  682  cd ./LR6
+  683  git config user.name "4116 Muraveva A.A."
+  684  git config user.email "muravevaalina537@gmail.com"
+  685  touch somefile.txt
+  686  ls somefile.txt
+  687  git add somefile.txt
+  688  git commit -m "test commit"
+  689  git push
+  690  git log --all
+  691  git log 
+  692  git show 7507b584b83c83aaf038ae6623c9b29f28038903
+  693  git show 921f53b8d0cebf542c791cf31f04e9b792f385a4
+  694  git checkout branch1
+  695  git pull
+  696  git checkout master
+  697  git merge branch1
+  698  git add mergefile.txt
+  699  git commit -m "merge complite"
+  700  git push https://github.com/almuraveva/LR6
+  701  git branch -d branch1
+  702  git push origin -d branch1
+  703  touch deletefile.txt
+  704  git add deletefile.txt
+  705  git commit -m "delete this commit"
+  706  git log
+  707  git reset --hard HEAD~
+  708  git log
+  709  git push https://github.com/almuraveva/LR6
+  710  touch "terminal log.txt"
+  711  add "terminal log.txt"
+  712  git add "terminal log.txt"
+  713  git add images
+  714  git commit -m "create log and images"
+  715  git push https://github.com/almuraveva/LR6
+  716  git branch report
+  717  git checkout report
+  718  touch history.txt
+  719  git add history.txt
+  720  git commit -m "create history commands"
+  721  git push https://github.com/almuraveva/LR6
+  722  git log --all
+  723  git pull
+  724  git pull https://github.com/almuraveva/LR6/ report
+  725  git log --all
